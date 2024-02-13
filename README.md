@@ -24,45 +24,7 @@ There were 8 test cases executed in the process with different inputs and the re
 
 <img align="center" alt="scenarios" src="https://github.com/vikaspabla/GreetingQAProject/blob/main/greetingScenarios.PNG">
 
-### 1st Test Case:  
-Input: None  
-Expected Output: "Hello, World!"  
-Result: Pass
-
-### 2nd Test Case:  
-Input: Custom string "Pabla"  
-Expected Output: "Hello, Pabla!"  
-Result: Pass
-
-### 3rd Test Case:  
-Input: A positive number, 123456  
-Expected Output: "Hello, 123456!"  
-Result: Pass
-
-### 4th Test Case:  
-Input: A negative number, -123456  
-Expected Output: "Hello, -123456!"  
-Result: Pass
-
-### 5th Test Case:  
-Input: A long positive number, 9223372036854775807L  
-Expected Output: "Hello, 9223372036854775807L!"  
-Result: Pass
-
-### 6th Test Case:  
-Input: A long negative number, -9223372036854775807L  
-Expected Output: "Hello, -9223372036854775807L!"  
-Result: Pass
-
-### 7th Test Case:  
-Input: Set of special characters not found in regular expressions  , **%%   
-Expected Output: "Hello, **%%!"  
-Result: Pass
-
-### 8th Test Case:  
-Input: Set of special characters in regular expressions  , !@#$%^&()_+=-{}[]:;"'<>,.?/`~`   
-Expected Output: "Hello, !@#$%^&*()_+=-{}[]\:;"'<>,.?/`~!"  
-Result: Fail
+# To view all the test cases - [Click here](/cucumber-report.html)
 
 ## 5. Recommendations
 

@@ -22,7 +22,7 @@ The testing approach involved using behavior-driven development (BDD) with Cucum
 
 There were 8 test cases executed in the process with different inputs and the results are summarized below:
 
-<img align="center" alt="scenarios" width="400" src="https://i.pinimg.com/originals/e1/85/18/e18518c6d24257c6fb02e3c95a862d85.gif">
+<img align="center" alt="scenarios" src="https://github.com/vikaspabla/GreetingQAProject/blob/main/greetingScenarios.PNG">
 
 ### 1st Test Case:  
 Input: None  

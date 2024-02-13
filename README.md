@@ -24,6 +24,10 @@ There were 8 test cases executed in the process with different inputs and the re
 
 <img align="center" alt="scenarios" src="https://github.com/vikaspabla/GreetingQAProject/blob/main/greetingScenarios.PNG">
 
+<img align="center" alt="scenarios" src="https://github.com/vikaspabla/GreetingQAProject/blob/main/testcases.PNG">
+
+
+
 ### 1st Test Case:  
 Input: None  
 Expected Output: "Hello, World!"  

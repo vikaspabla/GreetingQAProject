@@ -1,0 +1,32 @@
+plugins {
+	id 'org.springframework.boot' version '3.2.0'
+	id 'io.spring.dependency-management' version '1.1.4'
+	id 'java'
+}
+
+configurations {
+	cucumberRuntime {
+		extendsFrom testImplementation
+	}
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
+    testImplementation 'org.junit.vintage:junit-vintage-engine:5.7.2'
+	testImplementation 'io.cucumber:cucumber-java:7.2.3'
+	testImplementation 'io.cucumber:cucumber-junit:7.2.3'
+	testImplementation 'io.rest-assured:rest-assured:5.4.0'
+}
+
+test {
+	useJUnitPlatform()
+}

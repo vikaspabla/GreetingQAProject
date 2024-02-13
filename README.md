@@ -24,8 +24,6 @@ There were 8 test cases executed in the process with different inputs and the re
 
 <img align="center" alt="scenarios" src="https://github.com/vikaspabla/GreetingQAProject/blob/main/greetingScenarios.PNG">
 
-# To view all the test cases - [Click here](/cucumber-report.html)
-
 ## 5. Recommendations
 
 Based on the successful execution of 7 tests out of 8 and validation of expected outputs, the Greeting Endpoint feature appears to be functioning as intended. However, it's recommended to consider the following for future improvements:
